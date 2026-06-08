@@ -2394,5 +2394,245 @@
 ],
 "correct_index": 0,
 "image": "/signs/merge.png"
+},
+{
+"id": 217,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Watch for pedestrians crossing",
+"No pedestrians allowed",
+"A bus stop ahead"
+],
+"correct_index": 0,
+"image": "/signs/pedestrian-crossing.png"
+},
+{
+"id": 218,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Watch for bicycles \u2014 share the road",
+"No bicycles allowed",
+"Bicycle parking ahead"
+],
+"correct_index": 0,
+"image": "/signs/bicycle.png"
+},
+{
+"id": 219,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"The road may be slippery when wet",
+"A winding road ahead",
+"A car wash ahead"
+],
+"correct_index": 0,
+"image": "/signs/slippery-when-wet.png"
+},
+{
+"id": 220,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A stop sign is ahead",
+"Stop here immediately",
+"Do not enter"
+],
+"correct_index": 0,
+"image": "/signs/stop-ahead.png"
+},
+{
+"id": 221,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A traffic signal is ahead",
+"A railroad crossing is ahead",
+"A stop sign is ahead"
+],
+"correct_index": 0,
+"image": "/signs/signal-ahead.png"
+},
+{
+"id": 222,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A yield sign is ahead",
+"A stop sign is ahead",
+"Merging traffic ahead"
+],
+"correct_index": 0,
+"image": "/signs/yield-ahead.png"
+},
+{
+"id": 223,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"The road curves to the right ahead",
+"No right turn allowed",
+"The right lane ends"
+],
+"correct_index": 0,
+"image": "/signs/curve-right.png"
+},
+{
+"id": 224,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"There is a sharp right turn ahead",
+"Right turn only",
+"A slippery road ahead"
+],
+"correct_index": 0,
+"image": "/signs/turn-right.png"
+},
+{
+"id": 225,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A divided highway begins ahead",
+"Two-way traffic ahead",
+"The road ends ahead"
+],
+"correct_index": 0,
+"image": "/signs/divided-highway.png"
+},
+{
+"id": 226,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"The right lane ends ahead \u2014 merge left",
+"A lane is added ahead",
+"A divided highway begins"
+],
+"correct_index": 0,
+"image": "/signs/lane-ends.png"
+},
+{
+"id": 227,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A roundabout is ahead \u2014 yield to traffic in the circle",
+"A sharp loop in the road",
+"A dead end ahead"
+],
+"correct_index": 0,
+"image": "/signs/roundabout.png"
+},
+{
+"id": 228,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"You are entering a two-way roadway",
+"One-way street ahead",
+"A divided highway begins"
+],
+"correct_index": 0,
+"image": "/signs/two-way-traffic.png"
+},
+{
+"id": 229,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A crossroad (intersection) is ahead",
+"A hospital is ahead",
+"A railroad crossing is ahead"
+],
+"correct_index": 0,
+"image": "/signs/cross-road.png"
+},
+{
+"id": 230,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A narrow bridge is ahead",
+"A tunnel is ahead",
+"A low clearance ahead"
+],
+"correct_index": 0,
+"image": "/signs/narrow-bridge.png"
+},
+{
+"id": 231,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Do not turn while the light is red",
+"No turns allowed at any time",
+"Right turn only"
+],
+"correct_index": 0,
+"image": "/signs/no-turn-on-red.png"
+},
+{
+"id": 232,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Do not pass other vehicles here",
+"One-way street",
+"No parking"
+],
+"correct_index": 0,
+"image": "/signs/do-not-pass.png"
+},
+{
+"id": 233,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"No parking here",
+"No stopping for any reason",
+"Accessible parking only"
+],
+"correct_index": 0,
+"image": "/signs/no-parking.png"
+},
+{
+"id": 234,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Slower traffic must keep to the right lane",
+"Keep to the left",
+"No passing zone"
+],
+"correct_index": 0,
+"image": "/signs/slower-keep-right.png"
+},
+{
+"id": 235,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A hospital is nearby",
+"A help phone is nearby",
+"A rest area is nearby"
+],
+"correct_index": 0,
+"image": "/signs/hospital.png"
+},
+{
+"id": 236,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Fuel is available nearby",
+"A hospital is nearby",
+"A camping area is nearby"
+],
+"correct_index": 0,
+"image": "/signs/gas.png"
 }
 ]

@@ -54,6 +54,9 @@ async function viewHome() {
     el('h2', { style: 'margin-top:0' }, 'Take a Practice Test'),
     el('p', { class: 'lead' }, `${s.size} fresh questions pulled from every topic, in a new random mix each time. Choose the best answer; you're scored instantly. Pass = ${Math.ceil(s.size * 0.8)}/${s.size} (80%).`),
     el('button', { class: 'btn big', onclick: startPractice }, '▶  Start a practice test'),
+    el('div', { style: 'margin-top:14px' },
+      el('button', { class: 'btn ghost', onclick: startSignQuiz }, '🚸  Practice road signs only')),
+    el('p', { class: 'lead', style: 'margin:14px 0 0;font-size:13px' }, 'Road-sign practice is a study drill and is not counted in your scores below.'),
   ]);
   const stats = el('div', { class: 'statline center' }, [
     stat(s.runs, 'tests taken'),
@@ -65,10 +68,15 @@ async function viewHome() {
   app().append(hero, el('div', { class: 'card softcard' }, stats));
 }
 
-async function startPractice() {
+let RESTART = null;
+function startPractice() { return startQuiz({ url: '/api/practice', title: 'Practice Test', record: true, restart: startPractice }); }
+function startSignQuiz() { return startQuiz({ url: '/api/signs', title: 'Road Sign Quiz', record: false, restart: startSignQuiz }); }
+
+async function startQuiz(opts) {
+  RESTART = opts.restart;
   setTabs('home');
-  app().innerHTML = '<div class="loading">Building your test…</div>';
-  const data = await api('/api/practice');
+  app().innerHTML = '<div class="loading">Building your quiz…</div>';
+  const data = await api(opts.url);
   // shuffle each question's option display order, keep mapping to original index
   const qs = data.questions.map(q => ({ ...q, order: shuffle(q.options.map((_, i) => i)) }));
   const answers = {}; // id -> original option index
@@ -98,7 +106,7 @@ async function startPractice() {
     ]);
     app().innerHTML = '';
     app().append(
-      el('h2', {}, 'Practice Test'),
+      el('h2', {}, opts.title),
       el('div', { class: 'progress' }, el('span', { style: `width:${(answered / qs.length) * 100}%` })),
       card,
       el('div', { class: 'row' }, [
@@ -112,7 +120,7 @@ async function startPractice() {
     const responses = qs.map(q => ({ id: q.id, choice: answers[q.id] }));
     const res = await api('/api/practice/submit', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ responses, started_at: startedAt }),
+      body: JSON.stringify({ responses, started_at: startedAt, record: opts.record }),
     });
     viewResult(res);
   }
@@ -145,7 +153,7 @@ function viewResult(res) {
       el('div', {}, el('span', { class: 'verdict ' + (res.passed ? 'pass' : 'fail') }, res.passed ? 'PASS' : 'Keep studying')),
     ]),
     el('div', { class: 'row' }, [
-      el('button', { class: 'btn', onclick: startPractice }, '▶  Take another test'),
+      el('button', { class: 'btn', onclick: () => (RESTART || startPractice)() }, '▶  Take another'),
       el('button', { class: 'btn ghost', onclick: () => route('history') }, 'My history'),
     ]),
     el('h2', { style: 'margin-top:24px' }, 'Review'),

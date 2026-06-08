@@ -114,10 +114,24 @@ app.get('/api/practice', (req, res) => {
   res.json({ size: TEST_SIZE, questions: generatePractice() });
 });
 
+// A focused road-sign quiz: random sign-identification questions only.
+const SIGN_QUIZ_SIZE = 20;
+app.get('/api/signs', (req, res) => {
+  const rows = pickByCat.all('Sign Identification', SIGN_QUIZ_SIZE);
+  res.json({
+    size: rows.length,
+    questions: rows.map(r => ({
+      id: r.id, category: r.category, text: r.text,
+      options: JSON.parse(r.options_json), image: r.image || null,
+    })),
+  });
+});
+
 // Grade a practice submission (ordered responses), store the run, return review.
 app.post('/api/practice/submit', (req, res) => {
   const responses = Array.isArray(req.body && req.body.responses) ? req.body.responses : [];
   const startedAt = (req.body && req.body.started_at) || null;
+  const record = !(req.body && req.body.record === false); // sign drills pass record:false
   const ids = responses.map(r => parseInt(r.id, 10)).filter(Number.isInteger);
   if (!ids.length) return res.status(400).json({ error: 'No answers submitted.' });
 
@@ -140,10 +154,12 @@ app.post('/api/practice/submit', (req, res) => {
     });
   }
   const total = results.length;
-  db.prepare(
-    `INSERT INTO runs (email,test_n,score,total,answers_json,started_at)
-     VALUES (?,0,?,?,?,?)`
-  ).run(req.user.email, score, total, JSON.stringify(responses), startedAt);
+  if (record) {
+    db.prepare(
+      `INSERT INTO runs (email,test_n,score,total,answers_json,started_at)
+       VALUES (?,0,?,?,?,?)`
+    ).run(req.user.email, score, total, JSON.stringify(responses), startedAt);
+  }
 
   res.json({ score, total, passed: score >= Math.ceil(total * 0.8), results });
 });
