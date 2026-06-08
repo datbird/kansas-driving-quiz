@@ -21,11 +21,12 @@ retained only for the matching printable PDF set and is unused by the app.
 
 ### Sign images
 Sign-identification questions reference images under `public/signs/` via an `image` field on
-the question. The images shipped here are **simple original renderings** of the standard
-(public-domain) sign designs. **Want nicer/photoreal signs? Provide your own** — drop PNGs
-into `public/signs/` using the same filenames (see `data/questions.json` for the names), or
-point the `image` fields at your own assets. Do **not** copy sign images from commercial
-practice-test sites; their image files are copyrighted.
+the question, and the same images appear in a **Road Sign Gallery** in the study guide
+(in-site and PDF). The images are **original renderings** of the public-domain MUTCD sign
+designs, released **CC0 / public domain** (see `public/signs/README.md`) — reusable with no
+attribution. Regenerate or restyle them with `tools/render_signs.py` (Python + Pillow), or
+drop your own PNGs into `public/signs/` using the same filenames. Do **not** copy sign images
+from commercial practice-test sites; their image files are copyrighted.
 
 ## Run locally (no Cloudflare)
 ```sh
