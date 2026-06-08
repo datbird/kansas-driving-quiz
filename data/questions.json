@@ -2178,5 +2178,221 @@
 "Only signal at night"
 ],
 "correct_index": 0
+},
+{
+"id": 199,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Come to a complete stop",
+"Slow down, stop only if a car is coming",
+"Yield to cross traffic"
+],
+"correct_index": 0,
+"image": "/signs/stop.png"
+},
+{
+"id": 200,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Slow down and yield to traffic that has the right-of-way",
+"Come to a complete stop every time",
+"No entry ahead"
+],
+"correct_index": 0,
+"image": "/signs/yield.png"
+},
+{
+"id": 201,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Do not enter \u2014 you are going the wrong way",
+"One-way street ahead",
+"No parking zone"
+],
+"correct_index": 0,
+"image": "/signs/do-not-enter.png"
+},
+{
+"id": 202,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"You are traveling the wrong way; turn around",
+"A detour is ahead",
+"Do not pass"
+],
+"correct_index": 0,
+"image": "/signs/wrong-way.png"
+},
+{
+"id": 203,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Traffic flows only one way, in the arrow's direction",
+"Two-way traffic ahead",
+"Do not enter"
+],
+"correct_index": 0,
+"image": "/signs/one-way.png"
+},
+{
+"id": 204,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"No passing zone",
+"Yield ahead",
+"Merging traffic"
+],
+"correct_index": 0,
+"image": "/signs/no-passing.png"
+},
+{
+"id": 205,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"The maximum legal speed is 65 mph",
+"The minimum speed is 65 mph",
+"A suggested speed of 65 mph"
+],
+"correct_index": 0,
+"image": "/signs/speed-limit.png"
+},
+{
+"id": 206,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Railroad crossing \u2014 yield to trains",
+"Road construction ahead",
+"School crossing"
+],
+"correct_index": 0,
+"image": "/signs/crossbuck.png"
+},
+{
+"id": 207,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Railroad crossing ahead",
+"Roundabout ahead",
+"No entry"
+],
+"correct_index": 0,
+"image": "/signs/rr-advance.png"
+},
+{
+"id": 208,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"School zone or school crossing",
+"Hospital ahead",
+"Pedestrian shopping area"
+],
+"correct_index": 0,
+"image": "/signs/school.png"
+},
+{
+"id": 209,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"No left turn",
+"Left turn only",
+"Merge left"
+],
+"correct_index": 0,
+"image": "/signs/no-left-turn.png"
+},
+{
+"id": 210,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"No right turn",
+"Right turn only",
+"Keep right"
+],
+"correct_index": 0,
+"image": "/signs/no-right-turn.png"
+},
+{
+"id": 211,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"No U-turn",
+"U-turn permitted here",
+"Winding road ahead"
+],
+"correct_index": 0,
+"image": "/signs/no-u-turn.png"
+},
+{
+"id": 212,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Keep to the right of the divider or island",
+"Keep left",
+"No turns allowed"
+],
+"correct_index": 0,
+"image": "/signs/keep-right.png"
+},
+{
+"id": 213,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A slow-moving vehicle that travels under 25 mph",
+"A yield sign",
+"A construction zone"
+],
+"correct_index": 0,
+"image": "/signs/slow-moving.png"
+},
+{
+"id": 214,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A warning of a possible hazard ahead",
+"A law you must obey",
+"Roadway services nearby"
+],
+"correct_index": 0,
+"image": "/signs/warning.png"
+},
+{
+"id": 215,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"A work zone or construction area ahead",
+"A school zone",
+"A recreation area"
+],
+"correct_index": 0,
+"image": "/signs/construction.png"
+},
+{
+"id": 216,
+"category": "Sign Identification",
+"text": "What does this road sign mean?",
+"options": [
+"Merging traffic ahead",
+"Divided highway begins",
+"The road ends ahead"
+],
+"correct_index": 0,
+"image": "/signs/merge.png"
 }
 ]

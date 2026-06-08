@@ -60,13 +60,14 @@ app.get('/api/me', (req, res) => res.json(req.user));
 // Per-category quota for a freshly generated practice test. Sums to 25 (one full
 // exam). Every section is represented (>=1); the heavily-tested topics get 2.
 const QUOTA = {
+  'Sign Identification': 2,
   'Sign Shapes & Colors': 2,
   'Specific Signs': 2,
   'Traffic Signals': 2,
-  'Pavement Markings': 2,
   'Right-of-Way': 2,
   'Speed & Speed Limits': 2,
-  'Sharing the Road': 2,
+  'Pavement Markings': 1,
+  'Sharing the Road': 1,
   'License, Permits & Rules': 1,
   'Following & Stopping Distance': 1,
   'Passing': 1,
@@ -82,7 +83,7 @@ const QUOTA = {
 const TEST_SIZE = Object.values(QUOTA).reduce((a, b) => a + b, 0);
 
 const pickByCat = db.prepare(
-  `SELECT id, category, text, options_json FROM questions
+  `SELECT id, category, text, options_json, image FROM questions
    WHERE category = ? ORDER BY RANDOM() LIMIT ?`);
 
 function generatePractice() {
@@ -95,6 +96,7 @@ function generatePractice() {
   }
   return picked.map(r => ({
     id: r.id, category: r.category, text: r.text, options: JSON.parse(r.options_json),
+    image: r.image || null,
   }));
 }
 
@@ -120,7 +122,7 @@ app.post('/api/practice/submit', (req, res) => {
   if (!ids.length) return res.status(400).json({ error: 'No answers submitted.' });
 
   const rows = db.prepare(
-    `SELECT id, text, options_json, correct_index FROM questions
+    `SELECT id, text, options_json, correct_index, image FROM questions
      WHERE id IN (${ids.map(() => '?').join(',')})`).all(...ids);
   const byId = new Map(rows.map(r => [r.id, r]));
 
@@ -133,7 +135,7 @@ app.post('/api/practice/submit', (req, res) => {
     const correct = chosen === q.correct_index;
     if (correct) score++;
     results.push({
-      id: q.id, text: q.text, options: JSON.parse(q.options_json),
+      id: q.id, text: q.text, options: JSON.parse(q.options_json), image: q.image || null,
       your: chosen, correct_index: q.correct_index, correct,
     });
   }

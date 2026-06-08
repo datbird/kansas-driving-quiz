@@ -13,11 +13,19 @@ test counts and scores.
 - **Admin:** the email(s) listed in `ADMIN_EMAILS` can see every account's runs and scores.
 
 ## Question content
-`data/questions.json` (198 questions across 18 topics) is generated from the study-material
-question bank; `seed.js` loads it into SQLite on startup (re-seeding never deletes users or
-run history). Tests are **not** fixed — `server.js` builds each test on demand by randomly
-sampling the per-category `QUOTA` (sums to 25). `data/tests.json` is retained only for the
-matching printable PDF set and is unused by the app.
+`data/questions.json` (text + image questions across 19 topics) is generated from the
+study-material question bank; `seed.js` loads it into SQLite on startup (re-seeding never
+deletes users or run history). Tests are **not** fixed — `server.js` builds each test on
+demand by randomly sampling the per-category `QUOTA` (sums to 25). `data/tests.json` is
+retained only for the matching printable PDF set and is unused by the app.
+
+### Sign images
+Sign-identification questions reference images under `public/signs/` via an `image` field on
+the question. The images shipped here are **simple original renderings** of the standard
+(public-domain) sign designs. **Want nicer/photoreal signs? Provide your own** — drop PNGs
+into `public/signs/` using the same filenames (see `data/questions.json` for the names), or
+point the `image` fields at your own assets. Do **not** copy sign images from commercial
+practice-test sites; their image files are copyrighted.
 
 ## Run locally (no Cloudflare)
 ```sh

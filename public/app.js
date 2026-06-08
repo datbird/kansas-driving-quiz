@@ -86,6 +86,7 @@ async function startPractice() {
     const answered = Object.keys(answers).length;
     const card = el('div', { class: 'card' }, [
       el('div', { class: 'qhead' }, [el('span', { class: 'cat' }, q.category), el('span', {}, `Question ${cur + 1} of ${qs.length}`)]),
+      q.image ? el('img', { class: 'signimg', src: q.image, alt: 'road sign' }) : null,
       el('div', { class: 'qtext' }, q.text),
       opts,
       el('div', { class: 'row' }, [
@@ -132,6 +133,7 @@ function viewResult(res) {
     });
     review.appendChild(el('div', { class: 'card' }, [
       el('div', { class: 'qhead' }, [el('span', { class: 'cat' }, r.correct ? 'Correct' : 'Review'), el('span', {}, `Q${i + 1}`)]),
+      r.image ? el('img', { class: 'signimg', src: r.image, alt: 'road sign' }) : null,
       el('div', { class: 'qtext' }, r.text), opts,
     ]));
   });

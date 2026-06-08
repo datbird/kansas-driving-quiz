@@ -53,6 +53,8 @@ h2{font-size:20px;margin:4px 0 14px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
 .qhead{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px;margin-bottom:6px;gap:10px}
 .cat{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--blue);font-weight:700}
+.signimg{display:block;margin:6px auto 14px;max-width:200px;max-height:200px;width:auto;height:auto;
+  border-radius:8px;background:#fff;padding:6px}
 .qtext{font-size:19px;font-weight:600;margin:6px 0 18px}
 .opts{display:flex;flex-direction:column;gap:10px}
 .opt{display:flex;gap:12px;align-items:flex-start;padding:14px;border:1.5px solid var(--line);

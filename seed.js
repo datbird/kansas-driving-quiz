@@ -37,7 +37,8 @@ function main() {
       category TEXT NOT NULL,
       text TEXT NOT NULL,
       options_json TEXT NOT NULL,
-      correct_index INTEGER NOT NULL
+      correct_index INTEGER NOT NULL,
+      image TEXT
     );
     CREATE TABLE IF NOT EXISTS tests (
       n INTEGER PRIMARY KEY
@@ -61,6 +62,10 @@ function main() {
     CREATE INDEX IF NOT EXISTS idx_runs_email ON runs(email);
   `);
 
+  // Migration: add the image column to a questions table created before image support.
+  const hasImage = db.prepare("PRAGMA table_info(questions)").all().some(c => c.name === 'image');
+  if (!hasImage) db.exec('ALTER TABLE questions ADD COLUMN image TEXT');
+
   // Users: insert if missing; keep admin role for datbird, don't clobber a manually-changed name.
   const upUser = db.prepare(
     `INSERT INTO users (email,name,role) VALUES (@email,@name,@role)
@@ -73,10 +78,10 @@ function main() {
   const questions = JSON.parse(fs.readFileSync(path.join(DATA, 'questions.json'), 'utf8'));
   const tests = JSON.parse(fs.readFileSync(path.join(DATA, 'tests.json'), 'utf8'));
   const insQ = db.prepare(
-    `INSERT INTO questions (id,category,text,options_json,correct_index)
-     VALUES (@id,@category,@text,@options_json,@correct_index)
+    `INSERT INTO questions (id,category,text,options_json,correct_index,image)
+     VALUES (@id,@category,@text,@options_json,@correct_index,@image)
      ON CONFLICT(id) DO UPDATE SET category=excluded.category, text=excluded.text,
-       options_json=excluded.options_json, correct_index=excluded.correct_index`
+       options_json=excluded.options_json, correct_index=excluded.correct_index, image=excluded.image`
   );
   const insT = db.prepare(`INSERT OR IGNORE INTO tests (n) VALUES (?)`);
   const insTQ = db.prepare(
@@ -86,7 +91,8 @@ function main() {
   const tx2 = db.transaction(() => {
     for (const q of questions)
       insQ.run({ id: q.id, category: q.category, text: q.text,
-                 options_json: JSON.stringify(q.options), correct_index: q.correct_index });
+                 options_json: JSON.stringify(q.options), correct_index: q.correct_index,
+                 image: q.image || null });
     for (const t of tests) {
       insT.run(t.n);
       t.question_ids.forEach((qid, i) => insTQ.run(t.n, i, qid));
