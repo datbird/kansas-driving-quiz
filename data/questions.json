@@ -1,0 +1,2182 @@
+[
+{
+"id": 1,
+"category": "License, Permits & Rules",
+"text": "An Instruction Permit allows you to:",
+"options": [
+"Operate a motor vehicle when supervised by a licensed driver 21 or older",
+"Operate a motor vehicle without supervision",
+"Observe another driver operate a motor vehicle"
+],
+"correct_index": 0
+},
+{
+"id": 2,
+"category": "License, Permits & Rules",
+"text": "With a Class C Driver's License you may operate vehicles with a gross weight rating of:",
+"options": [
+"Any size, regardless of weight",
+"Less than 26,001 pounds",
+"More than 26,001 pounds"
+],
+"correct_index": 1
+},
+{
+"id": 3,
+"category": "License, Permits & Rules",
+"text": "Your Driver's License will:",
+"options": [
+"Expire on your birthday",
+"Never expire",
+"Expire after five years"
+],
+"correct_index": 0
+},
+{
+"id": 4,
+"category": "License, Permits & Rules",
+"text": "Driving is:",
+"options": [
+"A right that cannot be taken away",
+"A privilege that can be suspended or revoked",
+"Guaranteed once you turn 16"
+],
+"correct_index": 1
+},
+{
+"id": 5,
+"category": "License, Permits & Rules",
+"text": "Your driving privileges may be suspended for:",
+"options": [
+"Three moving violations within a twelve-month period",
+"One parking ticket",
+"Driving below the speed limit once"
+],
+"correct_index": 0
+},
+{
+"id": 6,
+"category": "License, Permits & Rules",
+"text": "If a police officer requests a chemical (breath/blood) test and you refuse, you may lose your license for:",
+"options": [
+"One year",
+"One week",
+"Thirty days only with no other penalty"
+],
+"correct_index": 0
+},
+{
+"id": 7,
+"category": "License, Permits & Rules",
+"text": "To get a Kansas license after moving to Kansas you must apply within:",
+"options": [
+"90 days",
+"1 year",
+"30 days"
+],
+"correct_index": 0
+},
+{
+"id": 8,
+"category": "License, Permits & Rules",
+"text": "A driver with an Instruction Permit must have the supervising adult:",
+"options": [
+"In the back seat",
+"In the front seat",
+"Following in another car"
+],
+"correct_index": 1
+},
+{
+"id": 9,
+"category": "License, Permits & Rules",
+"text": "Anyone who fails the knowledge test gets how many attempts before a 6-month wait?",
+"options": [
+"4",
+"2",
+"Unlimited"
+],
+"correct_index": 0
+},
+{
+"id": 10,
+"category": "License, Permits & Rules",
+"text": "To register as an organ donor on your Kansas license without a parent's signature you must be at least:",
+"options": [
+"18 years old",
+"21 years old",
+"16 years old"
+],
+"correct_index": 0
+},
+{
+"id": 11,
+"category": "License, Permits & Rules",
+"text": "A Real ID credential requires documents that are:",
+"options": [
+"Original and not laminated/photocopied",
+"Any photocopies you have",
+"Only a Social Security card"
+],
+"correct_index": 0
+},
+{
+"id": 12,
+"category": "License, Permits & Rules",
+"text": "The vision standard to be licensed in Kansas is at least:",
+"options": [
+"20/40 in one eye",
+"20/20 in both eyes",
+"20/100 in one eye"
+],
+"correct_index": 0
+},
+{
+"id": 13,
+"category": "License, Permits & Rules",
+"text": "The minimum age to obtain a Kansas Class C Instruction Permit or a Farm Permit is:",
+"options": [
+"14",
+"16",
+"18"
+],
+"correct_index": 0
+},
+{
+"id": 14,
+"category": "License, Permits & Rules",
+"text": "In Kansas, the agency that issues driver's licenses is the:",
+"options": [
+"Division of Vehicles",
+"Department of Public Safety",
+"County Sheriff"
+],
+"correct_index": 0
+},
+{
+"id": 15,
+"category": "Sign Shapes & Colors",
+"text": "A sign with eight sides (an octagon) always means:",
+"options": [
+"Stop",
+"Yield",
+"No passing"
+],
+"correct_index": 0
+},
+{
+"id": 16,
+"category": "Sign Shapes & Colors",
+"text": "The only sign shaped like a downward-pointing triangle is the:",
+"options": [
+"Yield sign",
+"Stop sign",
+"Speed limit sign"
+],
+"correct_index": 0
+},
+{
+"id": 17,
+"category": "Sign Shapes & Colors",
+"text": "A diamond-shaped sign is used for:",
+"options": [
+"Warnings of hazards ahead",
+"Speed limits",
+"Destination directions"
+],
+"correct_index": 0
+},
+{
+"id": 18,
+"category": "Sign Shapes & Colors",
+"text": "Orange traffic signs indicate:",
+"options": [
+"Work zones and construction",
+"Hospitals",
+"Recreation areas"
+],
+"correct_index": 0
+},
+{
+"id": 19,
+"category": "Sign Shapes & Colors",
+"text": "Lines and signs that separate traffic moving in opposite directions are:",
+"options": [
+"Yellow",
+"White",
+"Blue"
+],
+"correct_index": 0
+},
+{
+"id": 20,
+"category": "Sign Shapes & Colors",
+"text": "A blue rectangular sign tells you about:",
+"options": [
+"Roadway services such as gas, food, lodging, and hospitals",
+"Warnings",
+"Speed limits"
+],
+"correct_index": 0
+},
+{
+"id": 21,
+"category": "Sign Shapes & Colors",
+"text": "Green rectangular signs are usually:",
+"options": [
+"Guide signs giving directions and distances",
+"Warning signs",
+"Regulatory signs"
+],
+"correct_index": 0
+},
+{
+"id": 22,
+"category": "Sign Shapes & Colors",
+"text": "A round (circular) warning sign with an X and RR means:",
+"options": [
+"A railroad crossing is ahead",
+"No right turn",
+"A roundabout ahead"
+],
+"correct_index": 0
+},
+{
+"id": 23,
+"category": "Sign Shapes & Colors",
+"text": "A regulatory sign (a law you must obey) is usually what color?",
+"options": [
+"White with black letters",
+"Yellow",
+"Brown"
+],
+"correct_index": 0
+},
+{
+"id": 24,
+"category": "Sign Shapes & Colors",
+"text": "Brown signs are used for:",
+"options": [
+"Recreation and historical sites",
+"Construction zones",
+"Hospitals"
+],
+"correct_index": 0
+},
+{
+"id": 25,
+"category": "Sign Shapes & Colors",
+"text": "Fluorescent pink signs warn of:",
+"options": [
+"An incident such as a crash or hazardous spill",
+"A school zone",
+"A rest area"
+],
+"correct_index": 0
+},
+{
+"id": 26,
+"category": "Sign Shapes & Colors",
+"text": "The only pennant-shaped (sideways triangle) sign marks:",
+"options": [
+"The beginning of a no-passing zone",
+"A hospital",
+"A one-way street"
+],
+"correct_index": 0
+},
+{
+"id": 27,
+"category": "Sign Shapes & Colors",
+"text": "A five-sided (pentagon) sign indicates:",
+"options": [
+"A school zone or school crossing",
+"A hospital",
+"A dead end"
+],
+"correct_index": 0
+},
+{
+"id": 28,
+"category": "Sign Shapes & Colors",
+"text": "A red circle with a slash through a symbol means:",
+"options": [
+"That action is prohibited",
+"Proceed with caution",
+"Yield to traffic"
+],
+"correct_index": 0
+},
+{
+"id": 29,
+"category": "Specific Signs",
+"text": "A 'No Turn on Red' sign means:",
+"options": [
+"You must wait for a green light before turning",
+"You may turn after stopping",
+"You may only turn left"
+],
+"correct_index": 0
+},
+{
+"id": 30,
+"category": "Specific Signs",
+"text": "A 'Wrong Way' sign means:",
+"options": [
+"Your vehicle is moving in the wrong direction; turn around",
+"You may continue with caution",
+"A detour is ahead"
+],
+"correct_index": 0
+},
+{
+"id": 31,
+"category": "Specific Signs",
+"text": "A 'Do Not Enter' sign (white bar in a red circle) means:",
+"options": [
+"You may not enter the roadway ahead",
+"Yield to cross traffic",
+"No parking"
+],
+"correct_index": 0
+},
+{
+"id": 32,
+"category": "Specific Signs",
+"text": "A 'Slower Traffic Keep Right' sign tells slower drivers to:",
+"options": [
+"Stay in the right lane",
+"Speed up",
+"Move to the left lane"
+],
+"correct_index": 0
+},
+{
+"id": 33,
+"category": "Specific Signs",
+"text": "An orange/red reflective triangle on the back of a vehicle means it travels:",
+"options": [
+"Less than 25 mph",
+"Faster than highway traffic",
+"Only at night"
+],
+"correct_index": 0
+},
+{
+"id": 34,
+"category": "Specific Signs",
+"text": "A 'Shared Center Lane (Left Turn Only)' is used for:",
+"options": [
+"Left turns by vehicles from either direction",
+"Passing slower traffic",
+"Through traffic only"
+],
+"correct_index": 0
+},
+{
+"id": 35,
+"category": "Specific Signs",
+"text": "On an exit sign, if the word 'EXIT' is on the right side, the exit ramp is:",
+"options": [
+"On the right",
+"On the left",
+"Straight ahead"
+],
+"correct_index": 0
+},
+{
+"id": 36,
+"category": "Specific Signs",
+"text": "A 'Stop Here on Red' sign tells you:",
+"options": [
+"Where to stop when the light is red",
+"To stop permanently",
+"That the light is broken"
+],
+"correct_index": 0
+},
+{
+"id": 37,
+"category": "Specific Signs",
+"text": "A pennant 'No Passing Zone' sign is placed:",
+"options": [
+"On the left side of the road facing the driver",
+"On the right shoulder",
+"Overhead only"
+],
+"correct_index": 0
+},
+{
+"id": 38,
+"category": "Specific Signs",
+"text": "A yield sign means:",
+"options": [
+"Slow down and let traffic with the right-of-way go first",
+"Come to a complete stop always",
+"Speed up to merge"
+],
+"correct_index": 0
+},
+{
+"id": 39,
+"category": "Specific Signs",
+"text": "Speed limit signs show the maximum speed allowed in:",
+"options": [
+"Ideal conditions, so reduce speed in rain, snow, or fog",
+"All conditions, no matter what",
+"Only at night"
+],
+"correct_index": 0
+},
+{
+"id": 40,
+"category": "Traffic Signals",
+"text": "A steady yellow traffic light means:",
+"options": [
+"The light is about to turn red; stop if you can do so safely",
+"Speed up to beat the light",
+"Stop and wait for green"
+],
+"correct_index": 0
+},
+{
+"id": 41,
+"category": "Traffic Signals",
+"text": "A flashing red traffic light means:",
+"options": [
+"Treat it like a stop sign \u2014 stop, then go when clear",
+"Slow down and proceed",
+"The light is out of order; ignore it"
+],
+"correct_index": 0
+},
+{
+"id": 42,
+"category": "Traffic Signals",
+"text": "A flashing yellow traffic light means:",
+"options": [
+"Slow down and proceed with caution",
+"Stop completely",
+"The same as a red light"
+],
+"correct_index": 0
+},
+{
+"id": 43,
+"category": "Traffic Signals",
+"text": "A green arrow at an intersection means:",
+"options": [
+"You may turn in the arrow's direction; oncoming traffic is stopped",
+"You must stop before turning",
+"Yield to all oncoming traffic before turning"
+],
+"correct_index": 0
+},
+{
+"id": 44,
+"category": "Traffic Signals",
+"text": "At a steady red light, turning right is:",
+"options": [
+"Allowed after a complete stop, unless a sign prohibits it",
+"Never allowed",
+"Allowed without stopping"
+],
+"correct_index": 0
+},
+{
+"id": 45,
+"category": "Traffic Signals",
+"text": "A red arrow means:",
+"options": [
+"Stop; do not turn in that direction until it changes",
+"Turn with caution",
+"Yield only"
+],
+"correct_index": 0
+},
+{
+"id": 46,
+"category": "Traffic Signals",
+"text": "A steady green light means:",
+"options": [
+"Go through the intersection if it is clear",
+"Stop and look both ways",
+"The intersection is closed"
+],
+"correct_index": 0
+},
+{
+"id": 47,
+"category": "Traffic Signals",
+"text": "When turning left at a steady green light you must:",
+"options": [
+"Yield to oncoming traffic and pedestrians",
+"Go immediately before oncoming traffic",
+"Wait for a green arrow every time"
+],
+"correct_index": 0
+},
+{
+"id": 48,
+"category": "Traffic Signals",
+"text": "If a traffic signal has been green a long time as you approach, you should:",
+"options": [
+"Be ready to stop in case it changes",
+"Speed up to get through",
+"Assume it will stay green"
+],
+"correct_index": 0
+},
+{
+"id": 49,
+"category": "Pavement Markings",
+"text": "A solid yellow line on your side of the centerline means:",
+"options": [
+"No passing on your side",
+"Passing is allowed",
+"A turn lane"
+],
+"correct_index": 0
+},
+{
+"id": 50,
+"category": "Pavement Markings",
+"text": "A dashed yellow line means:",
+"options": [
+"You may pass when it is safe",
+"Never pass",
+"Parking allowed"
+],
+"correct_index": 0
+},
+{
+"id": 51,
+"category": "Pavement Markings",
+"text": "Two solid yellow lines between lanes mean:",
+"options": [
+"Neither direction may pass (cross only to turn)",
+"Passing allowed both ways",
+"A reversible lane"
+],
+"correct_index": 0
+},
+{
+"id": 52,
+"category": "Pavement Markings",
+"text": "A dashed white line between lanes means:",
+"options": [
+"You may change lanes when safe",
+"Stay in your lane",
+"Opposing traffic"
+],
+"correct_index": 0
+},
+{
+"id": 53,
+"category": "Pavement Markings",
+"text": "A solid white line between lanes means:",
+"options": [
+"Stay in your lane unless a special situation requires a change",
+"Pass freely",
+"Traffic moves in opposite directions"
+],
+"correct_index": 0
+},
+{
+"id": 54,
+"category": "Pavement Markings",
+"text": "White lane markings separate:",
+"options": [
+"Lanes of traffic moving in the same direction",
+"Opposing traffic",
+"Bike lanes only"
+],
+"correct_index": 0
+},
+{
+"id": 55,
+"category": "Pavement Markings",
+"text": "In a reversible lane, a red 'X' over the lane means:",
+"options": [
+"The lane is not available to you",
+"The lane is open",
+"Turn only"
+],
+"correct_index": 0
+},
+{
+"id": 56,
+"category": "Pavement Markings",
+"text": "A white diamond painted in a lane usually marks:",
+"options": [
+"A reserved lane (HOV, bus, or bike)",
+"A no-passing zone",
+"A parking space"
+],
+"correct_index": 0
+},
+{
+"id": 57,
+"category": "Pavement Markings",
+"text": "You must stop behind which marking when a sign or signal requires it?",
+"options": [
+"The stop line or crosswalk",
+"The centerline",
+"The fog line"
+],
+"correct_index": 0
+},
+{
+"id": 58,
+"category": "Right-of-Way",
+"text": "If a pedestrian is jaywalking in the middle of the street, you:",
+"options": [
+"Must stop for them",
+"Do not have to stop",
+"Should honk at them"
+],
+"correct_index": 0
+},
+{
+"id": 59,
+"category": "Right-of-Way",
+"text": "At a 4-way stop where two cars arrive at the same time:",
+"options": [
+"The car on the right goes first",
+"The car on the left goes first",
+"The larger vehicle goes"
+],
+"correct_index": 0
+},
+{
+"id": 60,
+"category": "Right-of-Way",
+"text": "At a 4-way stop, the right-of-way is given to:",
+"options": [
+"The driver who reaches the intersection first",
+"The fastest driver",
+"The driver on the left"
+],
+"correct_index": 0
+},
+{
+"id": 61,
+"category": "Right-of-Way",
+"text": "At an uncontrolled intersection (no signs or signals) you must yield to:",
+"options": [
+"The vehicle on your right",
+"The vehicle on your left",
+"Nobody"
+],
+"correct_index": 0
+},
+{
+"id": 62,
+"category": "Right-of-Way",
+"text": "When turning left, you must yield to:",
+"options": [
+"Oncoming vehicles going straight or turning right",
+"Cars behind you",
+"Pedestrians only after you turn"
+],
+"correct_index": 0
+},
+{
+"id": 63,
+"category": "Right-of-Way",
+"text": "A pedestrian using a white cane or guide dog:",
+"options": [
+"Must always be given the right-of-way; do not honk",
+"Should be honked at to warn them",
+"Must yield to vehicles"
+],
+"correct_index": 0
+},
+{
+"id": 64,
+"category": "Right-of-Way",
+"text": "When entering a road from a driveway or alley, you must:",
+"options": [
+"Yield to traffic already on the road",
+"Have the right-of-way",
+"Proceed without stopping"
+],
+"correct_index": 0
+},
+{
+"id": 65,
+"category": "Right-of-Way",
+"text": "When entering a roundabout or traffic circle, you must:",
+"options": [
+"Yield to traffic already in the circle",
+"Speed up to merge",
+"Stop in the circle"
+],
+"correct_index": 0
+},
+{
+"id": 66,
+"category": "Right-of-Way",
+"text": "Traffic in a roundabout travels:",
+"options": [
+"Counterclockwise around the center island",
+"Clockwise",
+"In either direction"
+],
+"correct_index": 0
+},
+{
+"id": 67,
+"category": "Right-of-Way",
+"text": "Even with a green light, you should not enter an intersection if:",
+"options": [
+"You cannot get all the way through it",
+"There are pedestrians on the sidewalk",
+"A car is behind you"
+],
+"correct_index": 0
+},
+{
+"id": 68,
+"category": "Right-of-Way",
+"text": "Emergency vehicles displaying lights and siren:",
+"options": [
+"Have the right-of-way; pull right and stop",
+"Must yield to you",
+"Should be followed closely"
+],
+"correct_index": 0
+},
+{
+"id": 69,
+"category": "Speed & Speed Limits",
+"text": "Unless otherwise posted, the maximum speed in an urban district (town/city) is:",
+"options": [
+"30 mph",
+"20 mph",
+"45 mph"
+],
+"correct_index": 0
+},
+{
+"id": 70,
+"category": "Speed & Speed Limits",
+"text": "Unless otherwise posted, the maximum speed on a state or federal highway is:",
+"options": [
+"65 mph",
+"55 mph",
+"75 mph"
+],
+"correct_index": 0
+},
+{
+"id": 71,
+"category": "Speed & Speed Limits",
+"text": "Unless otherwise posted, the maximum speed on a county or township road is:",
+"options": [
+"55 mph",
+"65 mph",
+"30 mph"
+],
+"correct_index": 0
+},
+{
+"id": 72,
+"category": "Speed & Speed Limits",
+"text": "The maximum speed on a separated multilane highway (when posted) is:",
+"options": [
+"75 mph",
+"65 mph",
+"55 mph"
+],
+"correct_index": 0
+},
+{
+"id": 73,
+"category": "Speed & Speed Limits",
+"text": "In a properly marked school zone or business district the limit is usually:",
+"options": [
+"20 mph",
+"30 mph",
+"10 mph"
+],
+"correct_index": 0
+},
+{
+"id": 74,
+"category": "Speed & Speed Limits",
+"text": "Kansas' Basic Speed Law requires you to:",
+"options": [
+"Never drive faster than is reasonable and prudent for conditions",
+"Always drive the posted limit no matter what",
+"Drive at least 10 mph over the limit"
+],
+"correct_index": 0
+},
+{
+"id": 75,
+"category": "Speed & Speed Limits",
+"text": "Driving 55 mph during a snowstorm where 55 is posted is:",
+"options": [
+"Not legal \u2014 you must reduce speed for conditions",
+"Always legal",
+"Required by law"
+],
+"correct_index": 0
+},
+{
+"id": 76,
+"category": "Speed & Speed Limits",
+"text": "Driving much slower than surrounding traffic is:",
+"options": [
+"As dangerous as speeding and can impede traffic",
+"Always the safest choice",
+"Legal at any speed"
+],
+"correct_index": 0
+},
+{
+"id": 77,
+"category": "Speed & Speed Limits",
+"text": "Posted speed limits are set for:",
+"options": [
+"Ideal driving conditions",
+"The worst possible weather",
+"Nighttime only"
+],
+"correct_index": 0
+},
+{
+"id": 78,
+"category": "Speed & Speed Limits",
+"text": "When you double your speed (for example 20 to 40 mph), your braking distance becomes about:",
+"options": [
+"4 times longer",
+"2 times longer",
+"The same"
+],
+"correct_index": 0
+},
+{
+"id": 79,
+"category": "Following & Stopping Distance",
+"text": "The recommended following distance in good conditions is:",
+"options": [
+"At least 2 seconds",
+"At least half a second",
+"10 car lengths at any speed"
+],
+"correct_index": 0
+},
+{
+"id": 80,
+"category": "Following & Stopping Distance",
+"text": "In rain, snow, or other poor conditions you should increase following distance to about:",
+"options": [
+"4 seconds",
+"2 seconds",
+"1 second"
+],
+"correct_index": 0
+},
+{
+"id": 81,
+"category": "Following & Stopping Distance",
+"text": "When following a motorcycle you should allow:",
+"options": [
+"A 3 to 4 second following distance",
+"Less than 1 second",
+"The same as a parked car"
+],
+"correct_index": 0
+},
+{
+"id": 82,
+"category": "Following & Stopping Distance",
+"text": "Total stopping distance is made up of:",
+"options": [
+"Perception distance, reaction distance, and braking distance",
+"Only braking distance",
+"Only reaction distance"
+],
+"correct_index": 0
+},
+{
+"id": 83,
+"category": "Following & Stopping Distance",
+"text": "The average perception time for an alert driver is about:",
+"options": [
+"3/4 second to 1 second",
+"3 to 4 seconds",
+"5 seconds"
+],
+"correct_index": 0
+},
+{
+"id": 84,
+"category": "Following & Stopping Distance",
+"text": "When changing lanes you should identify a gap of:",
+"options": [
+"4 to 6 seconds",
+"1 to 2 seconds",
+"Less than 1 second"
+],
+"correct_index": 0
+},
+{
+"id": 85,
+"category": "Following & Stopping Distance",
+"text": "Before changing lanes you should check your mirrors and also:",
+"options": [
+"Check your blind spot by looking over your shoulder",
+"Close your eyes and merge",
+"Only use your mirrors"
+],
+"correct_index": 0
+},
+{
+"id": 86,
+"category": "Following & Stopping Distance",
+"text": "You should look how far ahead to avoid sudden 'panic' stops?",
+"options": [
+"At least 10 to 15 seconds ahead",
+"Just past the hood",
+"Only at the car directly ahead"
+],
+"correct_index": 0
+},
+{
+"id": 87,
+"category": "Following & Stopping Distance",
+"text": "If a tailgater is following you too closely, you should:",
+"options": [
+"Increase the space in front of you and let them pass",
+"Brake suddenly to discourage them",
+"Speed up well over the limit"
+],
+"correct_index": 0
+},
+{
+"id": 88,
+"category": "Following & Stopping Distance",
+"text": "When merging onto a highway, you should:",
+"options": [
+"Use the acceleration lane to match traffic speed",
+"Stop at the end of the ramp and wait",
+"Cross the solid white line early"
+],
+"correct_index": 0
+},
+{
+"id": 89,
+"category": "Following & Stopping Distance",
+"text": "When you slow down, you should:",
+"options": [
+"Check your mirrors for traffic behind you",
+"Never look behind",
+"Speed up first"
+],
+"correct_index": 0
+},
+{
+"id": 90,
+"category": "Following & Stopping Distance",
+"text": "Before changing lanes or passing you should:",
+"options": [
+"Signal",
+"Check your mirrors",
+"Check your blind spot over your shoulder",
+"All of these"
+],
+"correct_index": 3
+},
+{
+"id": 91,
+"category": "Passing",
+"text": "You should normally pass another vehicle on the:",
+"options": [
+"Left",
+"Right",
+"Shoulder"
+],
+"correct_index": 0
+},
+{
+"id": 92,
+"category": "Passing",
+"text": "After passing, you should return to your lane when:",
+"options": [
+"You can see the passed vehicle in your rearview mirror",
+"You are even with it",
+"You begin the pass"
+],
+"correct_index": 0
+},
+{
+"id": 93,
+"category": "Passing",
+"text": "You may NOT pass within how many feet of a bridge, tunnel, intersection, or railroad crossing?",
+"options": [
+"100 feet",
+"10 feet",
+"500 feet"
+],
+"correct_index": 0
+},
+{
+"id": 94,
+"category": "Passing",
+"text": "Passing is not allowed when there is:",
+"options": [
+"A solid yellow line on your side",
+"A dashed yellow line on your side",
+"A green light"
+],
+"correct_index": 0
+},
+{
+"id": 95,
+"category": "Passing",
+"text": "You should not pass within how many feet of a stopped emergency vehicle with its lights on?",
+"options": [
+"100 feet",
+"10 feet",
+"1000 feet"
+],
+"correct_index": 0
+},
+{
+"id": 96,
+"category": "Passing",
+"text": "When being passed by another vehicle you should:",
+"options": [
+"Keep right and maintain a steady speed",
+"Speed up",
+"Move left toward them"
+],
+"correct_index": 0
+},
+{
+"id": 97,
+"category": "Passing",
+"text": "Passing on the right is allowed only:",
+"options": [
+"On one-way streets or multilane roads going the same direction",
+"On any two-lane road",
+"Whenever you are in a hurry"
+],
+"correct_index": 0
+},
+{
+"id": 98,
+"category": "Passing",
+"text": "You must return to the right lane before coming within how many feet of an oncoming vehicle?",
+"options": [
+"200 feet",
+"20 feet",
+"1000 feet"
+],
+"correct_index": 0
+},
+{
+"id": 99,
+"category": "Passing",
+"text": "It is unsafe to pass on a hill or curve because:",
+"options": [
+"You cannot see far enough ahead for oncoming traffic",
+"It is always faster",
+"The road is wider there"
+],
+"correct_index": 0
+},
+{
+"id": 100,
+"category": "Passing",
+"text": "Passing on the shoulder of the road is:",
+"options": [
+"Never allowed (except when directed by authorities)",
+"Allowed if the shoulder is paved",
+"Allowed in heavy traffic"
+],
+"correct_index": 0
+},
+{
+"id": 101,
+"category": "Alcohol, Drugs & Distraction",
+"text": "You are in violation of the law if your blood alcohol concentration (BAC) is at or over:",
+"options": [
+".08",
+".10",
+".04"
+],
+"correct_index": 0
+},
+{
+"id": 102,
+"category": "Alcohol, Drugs & Distraction",
+"text": "For drivers under 21, Kansas has a 'zero tolerance' policy, meaning:",
+"options": [
+"Any amount of alcohol is illegal",
+".08 is the limit",
+"Only beer is prohibited"
+],
+"correct_index": 0
+},
+{
+"id": 103,
+"category": "Alcohol, Drugs & Distraction",
+"text": "The only thing that will sober up a person who has been drinking is:",
+"options": [
+"Time",
+"Coffee",
+"A cold shower"
+],
+"correct_index": 0
+},
+{
+"id": 104,
+"category": "Alcohol, Drugs & Distraction",
+"text": "About what percentage of fatal crashes involve alcohol or other impairing drugs?",
+"options": [
+"About 40%",
+"About 5%",
+"About 1%"
+],
+"correct_index": 0
+},
+{
+"id": 105,
+"category": "Alcohol, Drugs & Distraction",
+"text": "If you are driving and need to use your cell phone, it is best to:",
+"options": [
+"Stop in a safe parking area and then make the call",
+"Use it quickly while driving",
+"Talk only at red lights"
+],
+"correct_index": 0
+},
+{
+"id": 106,
+"category": "Alcohol, Drugs & Distraction",
+"text": "To prevent a fatigue-related crash you should:",
+"options": [
+"Find a safe place to take a 15 to 20 minute nap",
+"Keep driving to arrive sooner",
+"Open the window and speed up"
+],
+"correct_index": 0
+},
+{
+"id": 107,
+"category": "Alcohol, Drugs & Distraction",
+"text": "In Kansas, using a device to write, send, or read a text while driving is:",
+"options": [
+"Illegal",
+"Legal at low speeds",
+"Legal on the highway"
+],
+"correct_index": 0
+},
+{
+"id": 108,
+"category": "Alcohol, Drugs & Distraction",
+"text": "Prescription and over-the-counter drugs can:",
+"options": [
+"Impair your driving like alcohol \u2014 check the label",
+"Never affect driving",
+"Improve your reaction time"
+],
+"correct_index": 0
+},
+{
+"id": 109,
+"category": "Alcohol, Drugs & Distraction",
+"text": "Vision is affected at a BAC as low as:",
+"options": [
+".02",
+".08",
+".15"
+],
+"correct_index": 0
+},
+{
+"id": 110,
+"category": "Alcohol, Drugs & Distraction",
+"text": "When confronted with an aggressive driver you should:",
+"options": [
+"Get out of their way and avoid eye contact",
+"Challenge them to hold your position",
+"Match their speed and honk"
+],
+"correct_index": 0
+},
+{
+"id": 111,
+"category": "Alcohol, Drugs & Distraction",
+"text": "'Implied consent' in Kansas means:",
+"options": [
+"By having a license you agreed to a chemical test if lawfully requested",
+"You may always refuse any test",
+"Only commercial drivers can be tested"
+],
+"correct_index": 0
+},
+{
+"id": 112,
+"category": "Alcohol, Drugs & Distraction",
+"text": "Which driving skills are affected by alcohol and other drugs?",
+"options": [
+"Reaction time",
+"Judgment and vision",
+"Coordination",
+"All of these"
+],
+"correct_index": 3
+},
+{
+"id": 113,
+"category": "Alcohol, Drugs & Distraction",
+"text": "Combining a prescription drug with alcohol can:",
+"options": [
+"Make you unfit to drive",
+"Have no effect",
+"Make you a safer driver"
+],
+"correct_index": 0
+},
+{
+"id": 114,
+"category": "Seat Belts & Child Safety",
+"text": "Kansas law requires that occupants of a passenger vehicle:",
+"options": [
+"Wear safety belts (a primary violation)",
+"Wear belts only on the highway",
+"Wear belts only on long trips"
+],
+"correct_index": 0
+},
+{
+"id": 115,
+"category": "Seat Belts & Child Safety",
+"text": "Safety belts should be worn:",
+"options": [
+"Always, even in vehicles with air bags",
+"Only if there are no air bags",
+"Only on trips over 25 miles"
+],
+"correct_index": 0
+},
+{
+"id": 116,
+"category": "Seat Belts & Child Safety",
+"text": "A child under 12 years old should ride in:",
+"options": [
+"The back seat",
+"The front seat",
+"Either seat"
+],
+"correct_index": 0
+},
+{
+"id": 117,
+"category": "Seat Belts & Child Safety",
+"text": "Children under age 4 must be:",
+"options": [
+"Restrained in a federally approved child safety seat",
+"Held by an adult",
+"In a regular seat belt"
+],
+"correct_index": 0
+},
+{
+"id": 118,
+"category": "Seat Belts & Child Safety",
+"text": "Children ages 4 to 8 must use a safety/booster seat unless they are taller than:",
+"options": [
+"4 feet 9 inches or over 80 pounds",
+"3 feet tall",
+"5 feet tall"
+],
+"correct_index": 0
+},
+{
+"id": 119,
+"category": "Seat Belts & Child Safety",
+"text": "A rear-facing infant seat should never be placed:",
+"options": [
+"In front of an active air bag",
+"In the back seat",
+"In the middle of the back seat"
+],
+"correct_index": 0
+},
+{
+"id": 120,
+"category": "Seat Belts & Child Safety",
+"text": "Air bags are designed to work best:",
+"options": [
+"In combination with safety belts",
+"By themselves without belts",
+"Only in side-impact crashes"
+],
+"correct_index": 0
+},
+{
+"id": 121,
+"category": "Seat Belts & Child Safety",
+"text": "The shoulder belt should be worn:",
+"options": [
+"Across the shoulder and chest",
+"Under the arm",
+"Behind the back"
+],
+"correct_index": 0
+},
+{
+"id": 122,
+"category": "Seat Belts & Child Safety",
+"text": "In most vehicles you should keep how much space between your chest and the steering wheel?",
+"options": [
+"About 10 inches",
+"About 2 inches",
+"As little as possible"
+],
+"correct_index": 0
+},
+{
+"id": 123,
+"category": "Seat Belts & Child Safety",
+"text": "More than half of crashes causing injury or death happen:",
+"options": [
+"At speeds under 40 mph and within 25 miles of home",
+"Only on interstates",
+"Only at night"
+],
+"correct_index": 0
+},
+{
+"id": 124,
+"category": "Parking",
+"text": "When parking uphill next to a curb, turn your front wheels:",
+"options": [
+"Away from the curb",
+"Toward the curb",
+"Straight ahead"
+],
+"correct_index": 0
+},
+{
+"id": 125,
+"category": "Parking",
+"text": "When parking downhill next to a curb, turn your front wheels:",
+"options": [
+"Toward the curb",
+"Away from the curb",
+"Straight ahead"
+],
+"correct_index": 0
+},
+{
+"id": 126,
+"category": "Parking",
+"text": "When parking on a hill with no curb, turn your wheels:",
+"options": [
+"Toward the shoulder/edge of the road",
+"Straight ahead",
+"Toward the center of the road"
+],
+"correct_index": 0
+},
+{
+"id": 127,
+"category": "Parking",
+"text": "You may not park within how many feet of a fire hydrant?",
+"options": [
+"15 feet",
+"5 feet",
+"50 feet"
+],
+"correct_index": 0
+},
+{
+"id": 128,
+"category": "Parking",
+"text": "You may not park within how many feet of a railroad crossing?",
+"options": [
+"50 feet",
+"10 feet",
+"100 feet"
+],
+"correct_index": 0
+},
+{
+"id": 129,
+"category": "Parking",
+"text": "You may not park within how many feet of a stop sign or traffic signal?",
+"options": [
+"30 feet",
+"5 feet",
+"100 feet"
+],
+"correct_index": 0
+},
+{
+"id": 130,
+"category": "Parking",
+"text": "Your vehicle must be parked no more than how far from the curb?",
+"options": [
+"12 inches",
+"3 feet",
+"2 feet"
+],
+"correct_index": 0
+},
+{
+"id": 131,
+"category": "Parking",
+"text": "Parking is not allowed:",
+"options": [
+"On a sidewalk, crosswalk, or in an intersection",
+"Next to any curb",
+"On any city street"
+],
+"correct_index": 0
+},
+{
+"id": 132,
+"category": "Parking",
+"text": "You may not park within how many feet of a fire-station driveway?",
+"options": [
+"20 feet",
+"5 feet",
+"100 feet"
+],
+"correct_index": 0
+},
+{
+"id": 133,
+"category": "School Buses & Stopping",
+"text": "You must stop when meeting or overtaking a bus that is stopped to load or unload children:",
+"options": [
+"True",
+"False",
+"Only if you are behind it"
+],
+"correct_index": 0
+},
+{
+"id": 134,
+"category": "School Buses & Stopping",
+"text": "You must stop for a school bus with flashing red lights on an undivided road:",
+"options": [
+"Whether it is on your side or the opposite side",
+"Only if it is on your side",
+"Only if children are visible"
+],
+"correct_index": 0
+},
+{
+"id": 135,
+"category": "School Buses & Stopping",
+"text": "On a divided highway, traffic going the opposite direction of a stopped school bus:",
+"options": [
+"Is not required to stop",
+"Must always stop",
+"Must slow to 5 mph"
+],
+"correct_index": 0
+},
+{
+"id": 136,
+"category": "School Buses & Stopping",
+"text": "You may proceed past a stopped school bus when:",
+"options": [
+"The red lights stop flashing and the stop arm is retracted",
+"The bus driver waves",
+"Five seconds have passed"
+],
+"correct_index": 0
+},
+{
+"id": 137,
+"category": "School Buses & Stopping",
+"text": "A complete stop is required at:",
+"options": [
+"A flashing red light",
+"A flashing yellow light",
+"A green light"
+],
+"correct_index": 0
+},
+{
+"id": 138,
+"category": "School Buses & Stopping",
+"text": "You must come to a complete stop when:",
+"options": [
+"A school crossing guard displays a flag in the stop position",
+"A pedestrian is on the far sidewalk",
+"Traffic ahead is moving"
+],
+"correct_index": 0
+},
+{
+"id": 139,
+"category": "School Buses & Stopping",
+"text": "When leaving an alley or driveway in a business or residential area you must:",
+"options": [
+"Stop before crossing the sidewalk and yield",
+"Honk and proceed",
+"Speed up to merge"
+],
+"correct_index": 0
+},
+{
+"id": 140,
+"category": "School Buses & Stopping",
+"text": "Do you have to stop for a transit (city) bus that has stopped to pick up passengers?",
+"options": [
+"No, unlike a school bus, but watch for pedestrians",
+"Yes, always",
+"Only at night"
+],
+"correct_index": 0
+},
+{
+"id": 141,
+"category": "Sharing the Road",
+"text": "Motorcycle, scooter, and moped operators have the right to:",
+"options": [
+"Use a complete traffic lane",
+"Only the shoulder",
+"Only half a lane"
+],
+"correct_index": 0
+},
+{
+"id": 142,
+"category": "Sharing the Road",
+"text": "If a truck or bus is making a right turn and you are also turning right, you should:",
+"options": [
+"Wait until the truck or bus turns before turning right",
+"Turn quickly before the truck",
+"Squeeze between the truck and the curb"
+],
+"correct_index": 0
+},
+{
+"id": 143,
+"category": "Sharing the Road",
+"text": "Bicyclists on the roadway:",
+"options": [
+"Have the same rights and responsibilities as drivers",
+"Must ride on the sidewalk only",
+"Do not have to obey signals"
+],
+"correct_index": 0
+},
+{
+"id": 144,
+"category": "Sharing the Road",
+"text": "Large trucks and buses have large blind spots called:",
+"options": [
+"No-Zones",
+"Safety zones",
+"Green zones"
+],
+"correct_index": 0
+},
+{
+"id": 145,
+"category": "Sharing the Road",
+"text": "If you cannot see a truck driver in their side mirror, it means:",
+"options": [
+"The driver cannot see you",
+"You are in a safe spot",
+"You may pass on the right"
+],
+"correct_index": 0
+},
+{
+"id": 146,
+"category": "Sharing the Road",
+"text": "When you meet a large vehicle coming from the opposite direction, you should:",
+"options": [
+"Keep as far to the right as possible",
+"Move toward the center line",
+"Stay in the center of your lane"
+],
+"correct_index": 0
+},
+{
+"id": 147,
+"category": "Sharing the Road",
+"text": "A moped is defined as a vehicle with a maximum design speed of no more than:",
+"options": [
+"30 mph",
+"55 mph",
+"45 mph"
+],
+"correct_index": 0
+},
+{
+"id": 148,
+"category": "Sharing the Road",
+"text": "You should not assume a motorcycle is turning when its signal is on because:",
+"options": [
+"Motorcycle signals may not self-cancel",
+"Motorcycles cannot turn",
+"Signals are always accurate"
+],
+"correct_index": 0
+},
+{
+"id": 149,
+"category": "Sharing the Road",
+"text": "When sharing the road with a bicyclist you should:",
+"options": [
+"Slow down and allow plenty of space when passing",
+"Honk to move them over",
+"Pass as closely as possible"
+],
+"correct_index": 0
+},
+{
+"id": 150,
+"category": "Sharing the Road",
+"text": "A loaded truck traveling 55 mph needs a stopping distance that is about:",
+"options": [
+"1 1/2 times that of a car",
+"The same as a car",
+"Half that of a car"
+],
+"correct_index": 0
+},
+{
+"id": 151,
+"category": "Sharing the Road",
+"text": "When approaching a stopped emergency vehicle with flashing lights, the Move-Over Law says:",
+"options": [
+"Move over a lane if you can, or slow down",
+"Speed up to pass quickly",
+"Stop in the lane next to it"
+],
+"correct_index": 0
+},
+{
+"id": 152,
+"category": "Visual Search & Communicating",
+"text": "You should turn on your headlights:",
+"options": [
+"Whenever your windshield wipers are being used",
+"Only after dark",
+"Only on the highway"
+],
+"correct_index": 0
+},
+{
+"id": 153,
+"category": "Visual Search & Communicating",
+"text": "At night you should dim your high beams when an oncoming vehicle is within about:",
+"options": [
+"One block / 500 feet",
+"Two car lengths",
+"One mile"
+],
+"correct_index": 0
+},
+{
+"id": 154,
+"category": "Visual Search & Communicating",
+"text": "High beam headlights let you see:",
+"options": [
+"About twice as far as low beams",
+"The same as low beams",
+"Less than low beams"
+],
+"correct_index": 0
+},
+{
+"id": 155,
+"category": "Visual Search & Communicating",
+"text": "In the city, you should look how far ahead when scanning?",
+"options": [
+"At least two blocks or two traffic signals",
+"Just past the hood",
+"Only at the next car"
+],
+"correct_index": 0
+},
+{
+"id": 156,
+"category": "Visual Search & Communicating",
+"text": "You should signal a turn in town at least how far before turning?",
+"options": [
+"100 feet",
+"10 feet",
+"500 feet"
+],
+"correct_index": 0
+},
+{
+"id": 157,
+"category": "Visual Search & Communicating",
+"text": "At speeds above 40 mph you should signal a turn or lane change at least:",
+"options": [
+"200 feet ahead",
+"20 feet ahead",
+"1000 feet ahead"
+],
+"correct_index": 0
+},
+{
+"id": 158,
+"category": "Visual Search & Communicating",
+"text": "A light tap of the horn is appropriate when:",
+"options": [
+"A pedestrian or bicyclist may be moving into your path",
+"Greeting a friend",
+"Telling a driver they made an error"
+],
+"correct_index": 0
+},
+{
+"id": 159,
+"category": "Visual Search & Communicating",
+"text": "You should NOT use your horn:",
+"options": [
+"Near blind pedestrians",
+"When a crash is about to happen",
+"When someone is drifting into your lane"
+],
+"correct_index": 0
+},
+{
+"id": 160,
+"category": "Visual Search & Communicating",
+"text": "If your vehicle breaks down, you should:",
+"options": [
+"Get off the road, turn on hazard flashers, and warn others",
+"Stay in the travel lane with the engine running",
+"Stop just over a hill"
+],
+"correct_index": 0
+},
+{
+"id": 161,
+"category": "Visual Search & Communicating",
+"text": "Emergency flares behind a disabled vehicle should be placed about:",
+"options": [
+"200 to 300 feet behind it",
+"10 feet behind it",
+"Right at the bumper"
+],
+"correct_index": 0
+},
+{
+"id": 162,
+"category": "Visual Search & Communicating",
+"text": "After making a turn or lane change you should:",
+"options": [
+"Make sure your turn signal has canceled",
+"Leave the signal on",
+"Speed up immediately"
+],
+"correct_index": 0
+},
+{
+"id": 163,
+"category": "Before Driving & Vehicle Control",
+"text": "Before you start the vehicle, you should:",
+"options": [
+"Make sure the parking brake is set",
+"Place your foot on the accelerator",
+"Turn on the high beams"
+],
+"correct_index": 0
+},
+{
+"id": 164,
+"category": "Before Driving & Vehicle Control",
+"text": "Before stopping your vehicle on the roadway, you should:",
+"options": [
+"Check your mirrors for traffic",
+"Place your foot on the accelerator",
+"Set the parking brake"
+],
+"correct_index": 0
+},
+{
+"id": 165,
+"category": "Before Driving & Vehicle Control",
+"text": "The preferred steering method for normal driving is:",
+"options": [
+"Hand-to-hand (push/pull), hands at 9 and 3",
+"Hands at 10 and 2",
+"One hand at the bottom of the wheel"
+],
+"correct_index": 0
+},
+{
+"id": 166,
+"category": "Before Driving & Vehicle Control",
+"text": "Hands at the 10-and-2 position are not recommended because:",
+"options": [
+"They can be dangerous if the air bag deploys",
+"They are uncomfortable",
+"They reduce visibility"
+],
+"correct_index": 0
+},
+{
+"id": 167,
+"category": "Before Driving & Vehicle Control",
+"text": "When backing your vehicle you should:",
+"options": [
+"Turn and look over your shoulder through the rear window",
+"Rely only on the mirrors",
+"Back as fast as possible"
+],
+"correct_index": 0
+},
+{
+"id": 168,
+"category": "Before Driving & Vehicle Control",
+"text": "It is illegal to back a vehicle in a travel lane except to:",
+"options": [
+"Parallel park",
+"Avoid a missed turn",
+"Let out a passenger"
+],
+"correct_index": 0
+},
+{
+"id": 169,
+"category": "Before Driving & Vehicle Control",
+"text": "Head restraints should be adjusted so they:",
+"options": [
+"Contact the back of your head, not below your ears",
+"Sit below your shoulders",
+"Touch the top of your head"
+],
+"correct_index": 0
+},
+{
+"id": 170,
+"category": "Before Driving & Vehicle Control",
+"text": "ABS (Anti-lock Braking System) lets you:",
+"options": [
+"Brake and steer at the same time without skidding",
+"Stop instantly on ice",
+"Drive faster in rain"
+],
+"correct_index": 0
+},
+{
+"id": 171,
+"category": "Before Driving & Vehicle Control",
+"text": "To use ABS in an emergency stop you should:",
+"options": [
+"Press the brake firmly and keep holding it",
+"Pump the brake rapidly",
+"Press lightly and release"
+],
+"correct_index": 0
+},
+{
+"id": 172,
+"category": "Before Driving & Vehicle Control",
+"text": "When adjusting your seat, the top of the steering wheel should be:",
+"options": [
+"No higher than the top of your shoulders",
+"Above your eyes",
+"At your chin"
+],
+"correct_index": 0
+},
+{
+"id": 173,
+"category": "Night, Weather & Emergencies",
+"text": "When a vehicle approaches you at night with its high beams on, you should:",
+"options": [
+"Look toward the right edge of the road",
+"Stare at the oncoming lights",
+"Turn on your own high beams"
+],
+"correct_index": 0
+},
+{
+"id": 174,
+"category": "Night, Weather & Emergencies",
+"text": "Roadways are most slippery when:",
+"options": [
+"It first starts to rain, snow, or sleet",
+"It has been raining for a while",
+"It has just stopped raining"
+],
+"correct_index": 0
+},
+{
+"id": 175,
+"category": "Night, Weather & Emergencies",
+"text": "When driving on gravel or dirt roads you must:",
+"options": [
+"Reduce your speed and increase your following distance",
+"Increase your speed",
+"Reduce speed and reduce following distance"
+],
+"correct_index": 0
+},
+{
+"id": 176,
+"category": "Night, Weather & Emergencies",
+"text": "If you see a flooded roadway ahead, you should:",
+"options": [
+"Turn around and find another route",
+"Cross carefully if it looks shallow",
+"Stop your vehicle on the roadway"
+],
+"correct_index": 0
+},
+{
+"id": 177,
+"category": "Night, Weather & Emergencies",
+"text": "If your vehicle stalls on railroad tracks, you should:",
+"options": [
+"Get out and run toward the direction the train is coming from",
+"Run in the same direction the train is traveling",
+"Stay in the vehicle"
+],
+"correct_index": 0
+},
+{
+"id": 178,
+"category": "Night, Weather & Emergencies",
+"text": "When approaching an animal standing near the roadway, you should:",
+"options": [
+"Slow down and use caution",
+"Speed up to scare it away",
+"Swerve into the other lane"
+],
+"correct_index": 0
+},
+{
+"id": 179,
+"category": "Night, Weather & Emergencies",
+"text": "If a tire suddenly blows out, you should:",
+"options": [
+"Grip the wheel, ease off the gas, and not brake hard",
+"Brake hard immediately",
+"Speed up to keep control"
+],
+"correct_index": 0
+},
+{
+"id": 180,
+"category": "Night, Weather & Emergencies",
+"text": "If your vehicle begins to lose traction (skid), you should:",
+"options": [
+"Ease off the pedals and steer where you want to go",
+"Brake hard to stop the skid",
+"Press the accelerator and steer"
+],
+"correct_index": 0
+},
+{
+"id": 181,
+"category": "Night, Weather & Emergencies",
+"text": "If your brakes stop working you should first:",
+"options": [
+"Pump the brake pedal rapidly to build pressure",
+"Turn off the engine",
+"Pull the steering wheel hard"
+],
+"correct_index": 0
+},
+{
+"id": 182,
+"category": "Night, Weather & Emergencies",
+"text": "When you cannot see farther than 100 feet due to fog, snow, or dust, you should not drive faster than:",
+"options": [
+"30 mph",
+"45 mph",
+"55 mph"
+],
+"correct_index": 0
+},
+{
+"id": 183,
+"category": "Night, Weather & Emergencies",
+"text": "Bridges and overpasses are dangerous in winter because they:",
+"options": [
+"Freeze before other parts of the road",
+"Stay warmer than the road",
+"Never get icy"
+],
+"correct_index": 0
+},
+{
+"id": 184,
+"category": "Night, Weather & Emergencies",
+"text": "The best protection against injury in a rollover crash is:",
+"options": [
+"Wearing your safety belt",
+"Driving a heavier vehicle",
+"Sitting in the back"
+],
+"correct_index": 0
+},
+{
+"id": 185,
+"category": "Night, Weather & Emergencies",
+"text": "Studded snow tires are legal in Kansas only:",
+"options": [
+"From November 1 to April 1",
+"All year",
+"Only in December"
+],
+"correct_index": 0
+},
+{
+"id": 186,
+"category": "Night, Weather & Emergencies",
+"text": "If a tornado is approaching and you are in your vehicle, you should:",
+"options": [
+"Leave the vehicle for sturdy shelter",
+"Park under an overpass",
+"Drive faster on the highway"
+],
+"correct_index": 0
+},
+{
+"id": 187,
+"category": "Night, Weather & Emergencies",
+"text": "Hydroplaning, where your tires ride up on a film of water, can begin at speeds as low as about:",
+"options": [
+"35 mph",
+"55 mph",
+"65 mph"
+],
+"correct_index": 0
+},
+{
+"id": 188,
+"category": "Night, Weather & Emergencies",
+"text": "If your vehicle begins to hydroplane, you should:",
+"options": [
+"Ease off the gas and avoid braking hard",
+"Brake hard to stop quickly",
+"Speed up to push through the water"
+],
+"correct_index": 0
+},
+{
+"id": 189,
+"category": "Night, Weather & Emergencies",
+"text": "In fog, snow, or heavy rain you should use your:",
+"options": [
+"Low-beam headlights",
+"High-beam headlights",
+"Parking lights only"
+],
+"correct_index": 0
+},
+{
+"id": 190,
+"category": "Night, Weather & Emergencies",
+"text": "You must turn on your headlights:",
+"options": [
+"When it is dark, in poor visibility, and whenever your wipers are on",
+"Only on the interstate",
+"Only after 10 p.m."
+],
+"correct_index": 0
+},
+{
+"id": 191,
+"category": "Hand Signals",
+"text": "To signal a LEFT turn using your arm, you should:",
+"options": [
+"Extend your arm straight out to the side, horizontally",
+"Bend your arm upward at the elbow",
+"Bend your arm downward at the elbow"
+],
+"correct_index": 0
+},
+{
+"id": 192,
+"category": "Hand Signals",
+"text": "To signal a RIGHT turn using your arm, you should:",
+"options": [
+"Extend your arm out and bend it upward at the elbow (hand pointing up)",
+"Extend your arm straight out horizontally",
+"Point your arm straight down"
+],
+"correct_index": 0
+},
+{
+"id": 193,
+"category": "Hand Signals",
+"text": "To signal that you are slowing or stopping using your arm, you should:",
+"options": [
+"Extend your arm out and bend it downward at the elbow (hand pointing down)",
+"Extend your arm straight out horizontally",
+"Bend your arm upward at the elbow"
+],
+"correct_index": 0
+},
+{
+"id": 194,
+"category": "Hand Signals",
+"text": "An arm extended straight out the driver's window means the driver intends to:",
+"options": [
+"Turn left",
+"Turn right",
+"Stop"
+],
+"correct_index": 0
+},
+{
+"id": 195,
+"category": "Hand Signals",
+"text": "An arm bent downward at the elbow out the window means the driver intends to:",
+"options": [
+"Slow down or stop",
+"Turn left",
+"Speed up"
+],
+"correct_index": 0
+},
+{
+"id": 196,
+"category": "Hand Signals",
+"text": "Hand-and-arm signals are most useful when:",
+"options": [
+"Your vehicle's turn signals or brake lights are not working",
+"You are driving on the highway",
+"It is raining hard"
+],
+"correct_index": 0
+},
+{
+"id": 197,
+"category": "Hand Signals",
+"text": "You must obey the directions of a school crossing guard:",
+"options": [
+"At all times while they are directing traffic",
+"Only during school hours",
+"Only when children are visible"
+],
+"correct_index": 0
+},
+{
+"id": 198,
+"category": "Hand Signals",
+"text": "If your turn-signal lights stop working, you should:",
+"options": [
+"Use hand-and-arm signals to communicate your turns",
+"Stop signaling altogether",
+"Only signal at night"
+],
+"correct_index": 0
+}
+]
