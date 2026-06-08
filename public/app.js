@@ -167,14 +167,51 @@ async function viewHistory() {
   app().innerHTML = '';
   app().append(el('h2', {}, 'My History'));
   if (!rows.length) { app().append(el('div', { class: 'empty' }, 'No tests yet — take a practice test!')); return; }
+  app().append(el('p', { class: 'lead' }, 'Your last 10 tests — tap one to review the questions and answers.'));
   app().append(el('table', {}, [
-    el('tr', {}, [el('th', {}, 'When'), el('th', {}, 'Score'), el('th', {}, 'Result')]),
-    ...rows.map(r => el('tr', {}, [
+    el('tr', {}, [el('th', {}, 'When'), el('th', {}, 'Score'), el('th', {}, 'Result'), el('th', {}, '')]),
+    ...rows.slice(0, 10).map(r => el('tr', { class: 'clickable', onclick: () => openRun(r.id, viewHistory) }, [
       el('td', {}, fmt(r.finished_at)),
       el('td', {}, `${r.score}/${r.total} (${pct(r.score, r.total)}%)`),
       el('td', {}, el('span', { class: 'pill ' + (r.score >= 20 ? 'pass' : 'fail') }, r.score >= 20 ? 'pass' : 'fail')),
+      el('td', { style: 'text-align:right;color:var(--muted)' }, 'review ›'),
     ])),
   ]));
+}
+
+// Review one run: each question with the answer given and the correct answer.
+async function openRun(id, back) {
+  app().innerHTML = '<div class="loading">Loading…</div>';
+  const d = await api('/api/run/' + id);
+  const r = d.run;
+  app().innerHTML = '';
+  app().append(
+    el('div', { class: 'row', style: 'margin:0 0 10px' }, [
+      el('button', { class: 'btn ghost', onclick: back }, '← Back'),
+      el('span', { class: 'lead', style: 'margin:0' },
+        `${fmt(r.finished_at)} · ${r.score}/${r.total} (${pct(r.score, r.total)}%)`),
+    ]),
+    el('h2', {}, 'Run review'));
+  const wrap = el('div', { class: 'review' });
+  d.items.forEach((it, i) => {
+    const opts = el('div', { class: 'opts' });
+    it.options.forEach((text, idx) => {
+      let cls = 'opt';
+      if (idx === it.correct_index) cls += ' correct';
+      else if (idx === it.your) cls += ' wrong';
+      const mark = idx === it.correct_index ? '✓' : (idx === it.your ? '✗' : '');
+      opts.appendChild(el('div', { class: cls }, [el('span', {}, text), mark ? el('span', { class: 'mark' }, mark) : null]));
+    });
+    wrap.appendChild(el('div', { class: 'card' }, [
+      el('div', { class: 'qhead' }, [
+        el('span', { class: 'cat' }, it.correct ? 'Correct' : 'Missed'),
+        el('span', {}, `Q${i + 1}` + (it.your == null ? ' · unanswered' : '')),
+      ]),
+      it.image ? el('img', { class: 'signimg', src: it.image, alt: 'road sign' }) : null,
+      el('div', { class: 'qtext' }, it.text), opts,
+    ]));
+  });
+  app().append(wrap, el('div', { class: 'row' }, el('button', { class: 'btn ghost', onclick: back }, '← Back')));
 }
 
 async function viewAdmin() {
@@ -208,11 +245,12 @@ async function toggleRuns(card, email, btn) {
   if (btn) btn.textContent = 'Hide tests';
   card.append(el('div', { class: 'runs', style: 'margin-top:12px' },
     rows.length ? el('table', {}, [
-      el('tr', {}, [el('th', {}, 'When'), el('th', {}, 'Score'), el('th', {}, 'Result')]),
-      ...rows.map(r => el('tr', {}, [
+      el('tr', {}, [el('th', {}, 'When'), el('th', {}, 'Score'), el('th', {}, 'Result'), el('th', {}, '')]),
+      ...rows.slice(0, 10).map(r => el('tr', { class: 'clickable', onclick: () => openRun(r.id, viewAdmin) }, [
         el('td', {}, fmt(r.finished_at)),
         el('td', {}, `${r.score}/${r.total}`),
         el('td', {}, el('span', { class: 'pill ' + (r.score >= 20 ? 'pass' : 'fail') }, r.score >= 20 ? 'pass' : 'fail')),
+        el('td', { style: 'text-align:right;color:var(--muted)' }, 'review ›'),
       ])),
     ]) : el('div', { class: 'empty' }, 'No tests.')));
 }

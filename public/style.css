@@ -97,6 +97,9 @@ table{width:100%;border-collapse:collapse;background:var(--card);border-radius:v
 th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);font-size:14px}
 th{background:#f8fafc;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.03em}
 tr:last-child td{border-bottom:0}
+tr.clickable{cursor:pointer;transition:background .12s}
+tr.clickable:active td{background:#e7eefb}
+@media(hover:hover){tr.clickable:hover td{background:#eef4ff}}
 .uname{font-weight:700}.uemail{color:var(--muted);font-size:12px}
 .admin-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);margin-bottom:14px}
 .empty{text-align:center;color:var(--muted);padding:40px}

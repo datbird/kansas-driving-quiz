@@ -164,6 +164,43 @@ app.post('/api/practice/submit', (req, res) => {
   res.json({ score, total, passed: score >= Math.ceil(total * 0.8), results });
 });
 
+// Full detail of one run: each question, the answer given, and the correct answer.
+// A user may view their own runs; admins may view anyone's.
+app.get('/api/run/:id', (req, res) => {
+  const id = parseInt(req.params.id, 10);
+  const run = db.prepare(
+    'SELECT id,email,test_n,score,total,answers_json,finished_at FROM runs WHERE id=?').get(id);
+  if (!run) return res.status(404).json({ error: 'No such run.' });
+  if (run.email !== req.user.email && req.user.role !== 'admin')
+    return res.status(403).json({ error: 'Not your run.' });
+
+  let answers = [];
+  try {
+    const parsed = JSON.parse(run.answers_json);
+    if (Array.isArray(parsed)) answers = parsed.map(r => ({ id: r.id, choice: r.choice }));
+    else answers = Object.entries(parsed).map(([qid, choice]) => ({ id: parseInt(qid, 10), choice }));
+  } catch { answers = []; }
+
+  const ids = answers.map(a => parseInt(a.id, 10)).filter(Number.isInteger);
+  const qrows = ids.length ? db.prepare(
+    `SELECT id,text,options_json,correct_index,image FROM questions
+     WHERE id IN (${ids.map(() => '?').join(',')})`).all(...ids) : [];
+  const byId = new Map(qrows.map(q => [q.id, q]));
+  const items = answers.map(a => {
+    const q = byId.get(parseInt(a.id, 10));
+    if (!q) return null;
+    const your = Number.isInteger(a.choice) ? a.choice : null;
+    return { text: q.text, image: q.image || null, options: JSON.parse(q.options_json),
+             your, correct_index: q.correct_index, correct: your === q.correct_index };
+  }).filter(Boolean);
+
+  res.json({
+    run: { id: run.id, email: run.email, test_n: run.test_n, score: run.score,
+           total: run.total, finished_at: run.finished_at },
+    items,
+  });
+});
+
 // Current user's run history.
 app.get('/api/history', (req, res) => {
   const rows = db.prepare(
