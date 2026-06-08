@@ -1,14 +1,17 @@
 # Road sign images
 
-These PNGs are **original, simplified renderings** of standard United States traffic-sign
-designs from the federal **MUTCD** (Manual on Uniform Traffic Control Devices). The
-underlying sign designs are public domain (a U.S. Government work), and these specific
-renderings are released to the **public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)** —
-use, modify, and redistribute them freely, no attribution required.
+These are the standard United States traffic signs defined in the federal **MUTCD**
+(Manual on Uniform Traffic Control Devices). MUTCD sign designs are **public domain**
+(works of the U.S. Government), so they are free to use, modify, and redistribute.
 
-They are intentionally simple (flat shapes + text/arrows), meant for study/quiz use.
+- **17 signs** are PNG renderings of the official sign artwork from **Wikimedia Commons**
+  (public domain): stop, yield, do-not-enter, wrong-way, one-way, no-passing, speed-limit,
+  crossbuck, rr-advance, school, no-left-turn, no-right-turn, no-u-turn, keep-right, merge,
+  deer-crossing, road-work.
+- **`slow-moving.png`** is a simple original rendering (the slow-moving-vehicle emblem),
+  released to the public domain.
 
-## Regenerate or customize
-They are produced by [`tools/render_signs.py`](../../tools/render_signs.py) (Python + Pillow).
-Edit that script and re-run it, or just drop your own PNGs in here using the same filenames.
-The quiz references each image via the `image` field in `data/questions.json`.
+To re-fetch or update them, download from Wikimedia Commons via
+`https://commons.wikimedia.org/wiki/Special:FilePath/<File>.svg?width=320` (use a descriptive
+User-Agent). To customize, just drop your own PNGs here using the same filenames — the quiz
+references each image through the `image` field in `data/questions.json`.

@@ -2364,24 +2364,24 @@
 "category": "Sign Identification",
 "text": "What does this road sign mean?",
 "options": [
-"A warning of a possible hazard ahead",
-"A law you must obey",
-"Roadway services nearby"
+"Watch for deer crossing the road",
+"A deer farm is ahead",
+"No hunting allowed"
 ],
 "correct_index": 0,
-"image": "/signs/warning.png"
+"image": "/signs/deer-crossing.png"
 },
 {
 "id": 215,
 "category": "Sign Identification",
 "text": "What does this road sign mean?",
 "options": [
-"A work zone or construction area ahead",
+"A work zone \u2014 road work ahead",
 "A school zone",
-"A recreation area"
+"A scenic overlook"
 ],
 "correct_index": 0,
-"image": "/signs/construction.png"
+"image": "/signs/road-work.png"
 },
 {
 "id": 216,
