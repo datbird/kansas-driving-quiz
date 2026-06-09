@@ -6,6 +6,9 @@ const el = (t, props = {}, kids = []) => {
     if (k === 'class') n.className = props[k];
     else if (k === 'html') n.innerHTML = props[k];
     else if (k.startsWith('on')) n.addEventListener(k.slice(2), props[k]);
+    // Skip null/undefined/false so boolean attrs like `disabled` are truly absent.
+    // setAttribute('disabled', null) would coerce to "null" and still disable the control.
+    else if (props[k] == null || props[k] === false) continue;
     else n.setAttribute(k, props[k]);
   }
   (Array.isArray(kids) ? kids : [kids]).forEach(c => c != null &&
@@ -126,11 +129,19 @@ async function startQuiz(opts) {
     if (Object.keys(answers).length < qs.length) return;
     app().innerHTML = '<div class="loading">Scoring…</div>';
     const responses = qs.map(q => ({ id: q.id, choice: answers[q.id] }));
-    const res = await api('/api/practice/submit', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ responses, started_at: startedAt, record: opts.record }),
-    });
-    viewResult(res);
+    try {
+      const res = await api('/api/practice/submit', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ responses, started_at: startedAt, record: opts.record }),
+      });
+      viewResult(res);
+    } catch (e) {
+      // Never lose a finished test to a transient error: redraw it with all answers
+      // intact and an error banner, so they can just hit Submit again.
+      draw();
+      app().prepend(el('div', { class: 'err' },
+        `Couldn't submit your test (${e.message}). Your answers are saved — tap Submit to try again.`));
+    }
   }
   draw();
 }

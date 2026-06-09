@@ -137,7 +137,9 @@ tr.clickable:active td{background:#e7eefb}
   .subtitle{display:none}
   .title{font-size:16px}
   .topbar{padding:10px 14px;padding-top:max(10px,env(safe-area-inset-top))}
-  main{margin:14px auto;padding:0 13px 92px}     /* bottom pad clears tab bar */
+  /* Bottom padding must clear the fixed tab bar AND iOS Safari's bottom chrome,
+     or the last home card (the official-test link) hides underneath it. */
+  main{margin:14px auto;padding:0 13px calc(128px + env(safe-area-inset-bottom))}
   .foot{display:none}
   /* fixed bottom tab bar */
   .tabs{position:fixed;left:0;right:0;bottom:0;z-index:30;gap:0;justify-content:space-around;flex-wrap:nowrap;
