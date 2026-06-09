@@ -64,8 +64,16 @@ async function viewHome() {
     stat(s.avg != null ? s.avg : '—', 'avg score'),
     stat(s.passes, 'passes'),
   ]);
+  const official = el('div', { class: 'card softcard', style: 'text-align:center' }, [
+    el('div', { style: 'font-weight:800;margin-bottom:4px' }, '🎓 Ready for the real test?'),
+    el('p', { class: 'lead', style: 'margin:0 0 12px' },
+      'When they pass these consistently, take the official Kansas knowledge exam online — no DMV trip. Run by the Kansas Dept. of Revenue: 25 questions, 80% to pass; needs a computer with a webcam, and a fee applies.'),
+    el('a', { class: 'btn big', href: 'https://ks.knowtodrive.com', target: '_blank', rel: 'noopener noreferrer' },
+      'Take the official KS test ↗'),
+    el('p', { class: 'lead', style: 'margin:10px 0 0;font-size:13px' }, 'ks.knowtodrive.com'),
+  ]);
   app().innerHTML = '';
-  app().append(hero, el('div', { class: 'card softcard' }, stats));
+  app().append(hero, el('div', { class: 'card softcard' }, stats), official);
 }
 
 let RESTART = null;
