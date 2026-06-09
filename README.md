@@ -1,16 +1,46 @@
 # Kansas Driving Practice — Quiz SPA
 
-A small single-page app for practicing the Kansas driving knowledge test. Each "Take a
-Practice Test" generates a **fresh, random 25-question test** — pulled with a per-category
-quota so every topic is represented (signs/signals/rules weighted higher) — then grades it
-instantly with answer review. Per-user history, plus an admin dashboard showing everyone's
-test counts and scores.
+A small, mobile-first single-page app for practicing the Kansas driving knowledge test.
 
+## Features
+- **Random practice tests** — each "Take a Practice Test" builds a **fresh, random
+  25-question exam** by sampling a per-category quota (every topic represented; signs/
+  signals/rules weighted higher), graded instantly with full answer review.
+- **Road-sign questions with real images** — picture "what does this sign mean?" questions
+  using the official public-domain MUTCD signs (38 signs), woven into every test.
+- **Dedicated road-signs drill** — a focused 20-question sign-only quiz; it's a study aid,
+  so it is **not** counted toward tracked scores.
+- **Study guide** — the full guide rendered in-app, plus a downloadable PDF, including a
+  visual **Road Sign Gallery**.
+- **Per-user history + run review** — tap any of the last 10 runs to see every question,
+  the answer given, and the correct answer.
+- **Admin dashboard** — admins (see `ADMIN_EMAILS`) see every account's test counts and
+  scores, and can open any run for review.
+- **Official test link** — links out to `ks.knowtodrive.com`, the Kansas Dept. of Revenue's
+  at-home knowledge exam.
+- **Installable PWA** — add to home screen for a full-screen, app-like experience with a
+  bottom tab bar and large touch targets.
+
+## How it's built
 - **Backend:** Node + Express, single file (`server.js`)
 - **Data:** one local **SQLite** file (`/data/quiz.db`) — no external database
 - **Auth:** identity comes from **Cloudflare Access** via the
   `Cf-Access-Authenticated-User-Email` request header. The app stores no passwords.
 - **Admin:** the email(s) listed in `ADMIN_EMAILS` can see every account's runs and scores.
+
+## API
+| method + path | purpose |
+|---|---|
+| `GET /api/me` | current user `{email,name,role}` |
+| `GET /api/stats` | the user's run count / best / avg / passes |
+| `GET /api/practice` | generate a fresh random 25-question test |
+| `GET /api/signs` | generate a 20-question road-signs-only drill |
+| `POST /api/practice/submit` | grade a submission, return review; `record:false` skips recording (used by the signs drill) |
+| `GET /api/history` | the user's runs |
+| `GET /api/run/:id` | one run's full detail (own runs only; admins, any) |
+| `GET /api/admin/overview` | per-user stats (admin) |
+| `GET /api/admin/user/:email/runs` | a user's runs (admin) |
+| `GET /healthz` | health probe (no auth) |
 
 ## Question content
 `data/questions.json` (text + image questions across 19 topics) is generated from the
