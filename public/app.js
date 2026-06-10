@@ -37,8 +37,8 @@ function setTabs(active) {
   tabs.forEach(([id, label]) =>
     nav.appendChild(el('button', { class: 'tab' + (id === active ? ' active' : ''), onclick: () => route(id) },
       [el('span', { class: 'ti' }, TAB_ICON[id]), el('span', { class: 'tl' }, label)])));
-  nav.appendChild(el('a', { class: 'tab dl', href: '/Kansas-Driving-Study-Guide.pdf', download: 'Kansas-Driving-Study-Guide.pdf' },
-    [el('span', { class: 'ti' }, '⬇️'), el('span', { class: 'tl' }, 'PDF')]));
+  nav.appendChild(el('a', { class: 'tab dl', href: 'https://www.ksrevenue.gov/pdf/dlhb.pdf', target: '_blank', rel: 'noopener noreferrer' },
+    [el('span', { class: 'ti' }, '📕'), el('span', { class: 'tl' }, 'Manual')]));
 }
 function renderWho() {
   $('#who').innerHTML = '';
